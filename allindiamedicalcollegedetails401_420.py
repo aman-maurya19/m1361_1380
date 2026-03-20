@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/gr-medical-college-hospital-and-research-centre-mangalore-180679",
-  "https://www.shiksha.com/college/icri-sushant-university-gurgaon-63693",
-  "https://www.shiksha.com/college/dayanand-college-of-pharmacy-latur-88685",
-  "https://www.shiksha.com/college/bundelkhand-government-ayurvedic-college-and-hospital-jhansi-210123",
-  "https://www.shiksha.com/college/rajiv-academy-for-pharmacy-mathura-59655",
-  "https://www.shiksha.com/college/sri-sai-bharath-college-of-arts-and-science-dindigul-76683",
-  "https://www.shiksha.com/college/omega-college-of-pharmacy-ranga-reddy-87843",
-  "https://www.shiksha.com/college/siddhartha-institute-of-pharmacy-telangana-ranga-reddy-88421",
-  "https://www.shiksha.com/college/dr-nj-paulbudhe-college-of-pharmacy-ahmednagar-88525",
-  "https://www.shiksha.com/college/university-polytechnic-college-bit-mesra-ranchi-97355",
-  "https://www.shiksha.com/college/chitradurga-medical-college-and-research-institute-213171",
-  "https://www.shiksha.com/college/smt-k-c-ajmera-ayurved-mahavidyalay-dhule-68145",
-  "https://www.shiksha.com/college/s-d-college-of-pharmacy-barnala-68359",
-  "https://www.shiksha.com/college/gmers-medical-college-mehsana-gujarat-other-69977",
-  "https://www.shiksha.com/college/nagaon-medical-college-dipholu-213227",
-  "https://www.shiksha.com/college/isas-international-beauty-school-pune-koregaon-park-34344",
-  "https://www.shiksha.com/college/bapuji-ayurvedic-medical-college-challakere-karnataka-other-87285",
-  "https://www.shiksha.com/college/ajeenkya-dy-patil-university-powered-by-emversity-lohegaon-pune-237384",
-  "https://www.shiksha.com/college/trr-institute-of-medical-sciences-sandareddy-152151",
-  "https://www.shiksha.com/college/employees-state-insurance-corporation-medical-college-alwar-180703",
+  "https://www.shiksha.com/college/bhagawan-mahaveer-jain-ayurvedic-medical-college-gadag-87295",
+  "https://www.shiksha.com/college/northern-railway-central-hospital-delhi-105907",
+  "https://www.shiksha.com/college/d-c-m-s-college-of-physiotherapy-hyderabad-194343",
+  "https://www.shiksha.com/college/santhiram-college-of-pharmacy-kurnool-61065",
+  "https://www.shiksha.com/college/kamalakshi-pandurangan-college-of-pharmacy-tiruvannamalai-88297",
+  "https://www.shiksha.com/college/government-polytechnic-education-society-palwal-146669",
+  "https://www.shiksha.com/college/gmers-medical-college-navsari-210089",
+  "https://www.shiksha.com/college/narayana-hrudayalaya-institute-of-physiotherapy-bangalore-210821",
+  "https://www.shiksha.com/college/dental-college-azamgarh-67477",
+  "https://www.shiksha.com/college/kvg-dental-college-and-hospital-karnataka-other-67857",
+  "https://www.shiksha.com/college/nss-college-of-pharmacy-mumbai-99691",
+  "https://www.shiksha.com/college/sunrise-paramedical-institute-pune-chinchwad-151015",
+  "https://www.shiksha.com/university/lnmu-lalit-narayan-mithila-university-bihar-other-20508",
+  "https://www.shiksha.com/college/basaveswara-medical-college-and-hospital-chitradurga-35636",
+  "https://www.shiksha.com/university/jodhpur-national-university-38089",
+  "https://www.shiksha.com/college/state-unani-medical-college-prayagraj-86967",
+  "https://www.shiksha.com/college/dhanalakshmi-srinivasan-college-of-pharmacy-perambalur-88533",
+  "https://www.shiksha.com/college/hillside-ayurveda-medical-college-and-hospital-bangalore-186189",
+  "https://www.shiksha.com/college/dr-n-r-s-ayurvedic-college-krishna-188867",
+  "https://www.shiksha.com/college/cancer-institute-chennai-193651",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 1361
+    c_count = 1481
 
     try:
         for base_url in BASE_URL:
