@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/bhagawan-mahaveer-jain-ayurvedic-medical-college-gadag-87295",
-  "https://www.shiksha.com/college/northern-railway-central-hospital-delhi-105907",
-  "https://www.shiksha.com/college/d-c-m-s-college-of-physiotherapy-hyderabad-194343",
-  "https://www.shiksha.com/college/santhiram-college-of-pharmacy-kurnool-61065",
-  "https://www.shiksha.com/college/kamalakshi-pandurangan-college-of-pharmacy-tiruvannamalai-88297",
-  "https://www.shiksha.com/college/government-polytechnic-education-society-palwal-146669",
-  "https://www.shiksha.com/college/gmers-medical-college-navsari-210089",
-  "https://www.shiksha.com/college/narayana-hrudayalaya-institute-of-physiotherapy-bangalore-210821",
-  "https://www.shiksha.com/college/dental-college-azamgarh-67477",
-  "https://www.shiksha.com/college/kvg-dental-college-and-hospital-karnataka-other-67857",
-  "https://www.shiksha.com/college/nss-college-of-pharmacy-mumbai-99691",
-  "https://www.shiksha.com/college/sunrise-paramedical-institute-pune-chinchwad-151015",
-  "https://www.shiksha.com/university/lnmu-lalit-narayan-mithila-university-bihar-other-20508",
-  "https://www.shiksha.com/college/basaveswara-medical-college-and-hospital-chitradurga-35636",
-  "https://www.shiksha.com/university/jodhpur-national-university-38089",
-  "https://www.shiksha.com/college/state-unani-medical-college-prayagraj-86967",
-  "https://www.shiksha.com/college/dhanalakshmi-srinivasan-college-of-pharmacy-perambalur-88533",
-  "https://www.shiksha.com/college/hillside-ayurveda-medical-college-and-hospital-bangalore-186189",
-  "https://www.shiksha.com/college/dr-n-r-s-ayurvedic-college-krishna-188867",
-  "https://www.shiksha.com/college/cancer-institute-chennai-193651",
+  "https://www.shiksha.com/college/compfeeders-aisect-college-of-professional-studies-pharmacy-college-indore-147119",
+  "https://www.shiksha.com/college/autonomous-state-medical-college-society-fatehpur-uttar-pradesh-other-180755",
+  "https://www.shiksha.com/college/national-institute-of-homoeopathy-delhi-other-214077",
+  "https://www.shiksha.com/college/maya-group-of-colleges-dehradun-39616",
+  "https://www.shiksha.com/college/nopany-institute-of-management-studies-girish-park-kolkata-48550",
+  "https://www.shiksha.com/college/school-of-biosciences-apeejay-stya-university-gurgaon-51577",
+  "https://www.shiksha.com/college/vidya-knowledge-park-meerut-56085",
+  "https://www.shiksha.com/college/dr-padiar-memorial-homeopathic-medical-college-kerala-other-66065",
+  "https://www.shiksha.com/college/sree-abirami-college-of-pharmacy-coimbatore-156613",
+  "https://www.shiksha.com/college/government-medical-college-tirupur-180709",
+  "https://www.shiksha.com/college/institute-of-asian-medical-science-and-unani-srinagar-187801",
+  "https://www.shiksha.com/university/dr-preeti-global-university-indore-216077",
+  "https://www.shiksha.com/college/government-medical-college-jalna-231208",
+  "https://www.shiksha.com/college/educare-institute-of-dental-sciences-malappuram-66069",
+  "https://www.shiksha.com/college/care-hospital-hyderabad-105901",
+  "https://www.shiksha.com/college/the-dale-view-college-of-pharmacy-and-research-centre-trivandrum-60837",
+  "https://www.shiksha.com/college/dr-b-c-roy-post-graduate-institute-of-paediatric-sciences-kolkata-69791",
+  "https://www.shiksha.com/college/shivalik-ayurvedic-medical-college-azamgarh-87429",
+  "https://www.shiksha.com/college/shree-swaminarayan-college-of-pharmacy-kalol-87823",
+  "https://www.shiksha.com/college/gramin-technical-and-management-campus-nanded-98855",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 1481
+    c_count = 1841
 
     try:
         for base_url in BASE_URL:
