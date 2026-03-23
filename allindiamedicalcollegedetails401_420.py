@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/compfeeders-aisect-college-of-professional-studies-pharmacy-college-indore-147119",
-  "https://www.shiksha.com/college/autonomous-state-medical-college-society-fatehpur-uttar-pradesh-other-180755",
-  "https://www.shiksha.com/college/national-institute-of-homoeopathy-delhi-other-214077",
-  "https://www.shiksha.com/college/maya-group-of-colleges-dehradun-39616",
-  "https://www.shiksha.com/college/nopany-institute-of-management-studies-girish-park-kolkata-48550",
-  "https://www.shiksha.com/college/school-of-biosciences-apeejay-stya-university-gurgaon-51577",
-  "https://www.shiksha.com/college/vidya-knowledge-park-meerut-56085",
-  "https://www.shiksha.com/college/dr-padiar-memorial-homeopathic-medical-college-kerala-other-66065",
-  "https://www.shiksha.com/college/sree-abirami-college-of-pharmacy-coimbatore-156613",
-  "https://www.shiksha.com/college/government-medical-college-tirupur-180709",
-  "https://www.shiksha.com/college/institute-of-asian-medical-science-and-unani-srinagar-187801",
-  "https://www.shiksha.com/university/dr-preeti-global-university-indore-216077",
-  "https://www.shiksha.com/college/government-medical-college-jalna-231208",
-  "https://www.shiksha.com/college/educare-institute-of-dental-sciences-malappuram-66069",
-  "https://www.shiksha.com/college/care-hospital-hyderabad-105901",
-  "https://www.shiksha.com/college/the-dale-view-college-of-pharmacy-and-research-centre-trivandrum-60837",
-  "https://www.shiksha.com/college/dr-b-c-roy-post-graduate-institute-of-paediatric-sciences-kolkata-69791",
-  "https://www.shiksha.com/college/shivalik-ayurvedic-medical-college-azamgarh-87429",
-  "https://www.shiksha.com/college/shree-swaminarayan-college-of-pharmacy-kalol-87823",
-  "https://www.shiksha.com/college/gramin-technical-and-management-campus-nanded-98855",
+  "https://www.shiksha.com/college/purulia-government-medical-college-and-hospital-149701",
+  "https://www.shiksha.com/college/brijlal-biyani-science-college-amravati-76005",
+  "https://www.shiksha.com/college/i-g-mahila-mahavidyalaya-kaithal-111115",
+  "https://www.shiksha.com/college/mkm-group-of-colleges-for-girls-palwal-68931",
+  "https://www.shiksha.com/college/ara-college-of-pharmacy-dhule-88705",
+  "https://www.shiksha.com/college/the-bangalore-hospital-106123",
+  "https://www.shiksha.com/college/churachandpur-government-college-manipur-other-138467",
+  "https://www.shiksha.com/college/anurag-group-of-institutions-hyderabad-194159",
+  "https://www.shiksha.com/college/college-of-life-science-center-hospital-and-research-institute-gwalior-196659",
+  "https://www.shiksha.com/college/c-u-shah-physiotherpy-college-surendranagar-197993",
+  "https://www.shiksha.com/college/government-astanga-ayurvda-mahavidyalaya-indore-208857",
+  "https://www.shiksha.com/college/jagannath-community-college-rohini-delhi-26045",
+  "https://www.shiksha.com/college/raos-college-of-pharmacy-nellore-61043",
+  "https://www.shiksha.com/college/government-medical-college-and-hospital-balangir-orissa-other-62885",
+  "https://www.shiksha.com/college/ilam-sushant-university-gurgaon-nehru-place-delhi-63695",
+  "https://www.shiksha.com/college/h-k-e-society-dr-malakreddy-homeopathic-medical-college-gulbarga-68165",
+  "https://www.shiksha.com/college/mangaldai-college-assam-other-102959",
+  "https://www.shiksha.com/college/tapovana-medical-college-of-naturopathy-and-yogic-science-davangere-150099",
+  "https://www.shiksha.com/college/swift-school-of-pharmacy-rajpura-87583",
+  "https://www.shiksha.com/college/prerna-institute-of-pharmacy-parbhani-88977",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 1841
+    c_count = 2041
 
     try:
         for base_url in BASE_URL:
