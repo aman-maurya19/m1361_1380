@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/purulia-government-medical-college-and-hospital-149701",
-  "https://www.shiksha.com/college/brijlal-biyani-science-college-amravati-76005",
-  "https://www.shiksha.com/college/i-g-mahila-mahavidyalaya-kaithal-111115",
-  "https://www.shiksha.com/college/mkm-group-of-colleges-for-girls-palwal-68931",
-  "https://www.shiksha.com/college/ara-college-of-pharmacy-dhule-88705",
-  "https://www.shiksha.com/college/the-bangalore-hospital-106123",
-  "https://www.shiksha.com/college/churachandpur-government-college-manipur-other-138467",
-  "https://www.shiksha.com/college/anurag-group-of-institutions-hyderabad-194159",
-  "https://www.shiksha.com/college/college-of-life-science-center-hospital-and-research-institute-gwalior-196659",
-  "https://www.shiksha.com/college/c-u-shah-physiotherpy-college-surendranagar-197993",
-  "https://www.shiksha.com/college/government-astanga-ayurvda-mahavidyalaya-indore-208857",
-  "https://www.shiksha.com/college/jagannath-community-college-rohini-delhi-26045",
-  "https://www.shiksha.com/college/raos-college-of-pharmacy-nellore-61043",
-  "https://www.shiksha.com/college/government-medical-college-and-hospital-balangir-orissa-other-62885",
-  "https://www.shiksha.com/college/ilam-sushant-university-gurgaon-nehru-place-delhi-63695",
-  "https://www.shiksha.com/college/h-k-e-society-dr-malakreddy-homeopathic-medical-college-gulbarga-68165",
-  "https://www.shiksha.com/college/mangaldai-college-assam-other-102959",
-  "https://www.shiksha.com/college/tapovana-medical-college-of-naturopathy-and-yogic-science-davangere-150099",
-  "https://www.shiksha.com/college/swift-school-of-pharmacy-rajpura-87583",
-  "https://www.shiksha.com/college/prerna-institute-of-pharmacy-parbhani-88977",
+  "https://www.shiksha.com/college/emversity-school-of-hospitality-health-sciences-bengaluru-hoodi-mahadevpura-bangalore-227681",
+  "https://www.shiksha.com/college/chandola-homoeopathic-medical-college-and-hospital-kichha-229323",
+  "https://www.shiksha.com/college/d-s-institute-of-paramedical-science-and-hospital-patel-nagar-ghaziabad-52679",
+  "https://www.shiksha.com/college/adarsa-college-of-pharmacy-east-godavari-60501",
+  "https://www.shiksha.com/college/shree-h-n-shukla-homoeopathic-medical-college-hospital-rajkot-87473",
+  "https://www.shiksha.com/college/college-of-pharmacy-shahada-maharashtra-other-88713",
+  "https://www.shiksha.com/college/shri-vithal-education-and-research-institute-s-college-of-pharmacy-solapur-88857",
+  "https://www.shiksha.com/college/government-polytechnic-jamalpur-shekhon-haryana-other-146649",
+  "https://www.shiksha.com/college/ignou-regional-centre-shillong-138473",
+  "https://www.shiksha.com/college/public-health-institute-patna-195059",
+  "https://www.shiksha.com/college/sh-medical-college-naturopathy-and-yogic-sciences-bhopal-196959",
+  "https://www.shiksha.com/college/government-medical-college-nashik-244020",
+  "https://www.shiksha.com/college/shri-gajanan-maharaj-sansthan-ayurved-mahavidyalaya-yavatmal-68237",
+  "https://www.shiksha.com/college/smt-kusumtai-wankhede-institute-of-pharmacy-nagpur-89201",
+  "https://www.shiksha.com/college/columbia-asia-referral-hospital-bangalore-105905",
+  "https://www.shiksha.com/college/hakeem-rais-unani-medical-college-and-hospital-sambhal-183909",
+  "https://www.shiksha.com/college/government-homeophathic-college-ghazipur-184105",
+  "https://www.shiksha.com/college/swamy-vivekananda-institute-of-paramedical-sciences-mysore-199789",
+  "https://www.shiksha.com/college/benoy-chowdhury-memorial-health-research-institute-baharampur-205139",
+  "https://www.shiksha.com/college/goverment-medical-college-gadchiroli-231194",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 2041
+    c_count = 2321
 
     try:
         for base_url in BASE_URL:
