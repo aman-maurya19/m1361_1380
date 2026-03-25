@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/emversity-school-of-hospitality-health-sciences-bengaluru-hoodi-mahadevpura-bangalore-227681",
-  "https://www.shiksha.com/college/chandola-homoeopathic-medical-college-and-hospital-kichha-229323",
-  "https://www.shiksha.com/college/d-s-institute-of-paramedical-science-and-hospital-patel-nagar-ghaziabad-52679",
-  "https://www.shiksha.com/college/adarsa-college-of-pharmacy-east-godavari-60501",
-  "https://www.shiksha.com/college/shree-h-n-shukla-homoeopathic-medical-college-hospital-rajkot-87473",
-  "https://www.shiksha.com/college/college-of-pharmacy-shahada-maharashtra-other-88713",
-  "https://www.shiksha.com/college/shri-vithal-education-and-research-institute-s-college-of-pharmacy-solapur-88857",
-  "https://www.shiksha.com/college/government-polytechnic-jamalpur-shekhon-haryana-other-146649",
-  "https://www.shiksha.com/college/ignou-regional-centre-shillong-138473",
-  "https://www.shiksha.com/college/public-health-institute-patna-195059",
-  "https://www.shiksha.com/college/sh-medical-college-naturopathy-and-yogic-sciences-bhopal-196959",
-  "https://www.shiksha.com/college/government-medical-college-nashik-244020",
-  "https://www.shiksha.com/college/shri-gajanan-maharaj-sansthan-ayurved-mahavidyalaya-yavatmal-68237",
-  "https://www.shiksha.com/college/smt-kusumtai-wankhede-institute-of-pharmacy-nagpur-89201",
-  "https://www.shiksha.com/college/columbia-asia-referral-hospital-bangalore-105905",
-  "https://www.shiksha.com/college/hakeem-rais-unani-medical-college-and-hospital-sambhal-183909",
-  "https://www.shiksha.com/college/government-homeophathic-college-ghazipur-184105",
-  "https://www.shiksha.com/college/swamy-vivekananda-institute-of-paramedical-sciences-mysore-199789",
-  "https://www.shiksha.com/college/benoy-chowdhury-memorial-health-research-institute-baharampur-205139",
-  "https://www.shiksha.com/college/goverment-medical-college-gadchiroli-231194",
+  "https://www.shiksha.com/university/southern-regional-station-national-dairy-research-institute-bangalore-53198",
+  "https://www.shiksha.com/college/dssop-pharmacy-college-uttar-pradesh-other-65487",
+  "https://www.shiksha.com/college/shriram-shikshan-sanstha-s-college-of-pharmacy-solapur-88859",
+  "https://www.shiksha.com/college/kalra-hospital-delhi-106097",
+  "https://www.shiksha.com/college/design-education-technology-jabalpur-115095",
+  "https://www.shiksha.com/college/vagdevi-college-of-pharmacy-and-research-centre-nellore-146165",
+  "https://www.shiksha.com/college/a-and-e-college-of-pharmacy-bihar-other-146429",
+  "https://www.shiksha.com/college/school-of-pharmacy-kawali-ybn-university-ranchi-156867",
+  "https://www.shiksha.com/college/baba-ramdal-surajdev-pharmacy-college-uttar-pradesh-other-181119",
+  "https://www.shiksha.com/college/nitra-institute-of-sleep-sciences-chennai-193907",
+  "https://www.shiksha.com/college/k-v-m-institute-of-paramedical-sciences-kerala-other-194681",
+  "https://www.shiksha.com/college/gyan-jyoti-paramedical-and-nursing-school-hazaribagh-201687",
+  "https://www.shiksha.com/college/rajshreya-college-of-pharmacy-bidar-207855",
+  "https://www.shiksha.com/provider/nsdc-national-skill-development-corporation-225693",
+  "https://www.shiksha.com/provider/fda-226621",
+  "https://www.shiksha.com/provider/sgs-226821",
+  "https://www.shiksha.com/college/patel-college-of-pharmacy-ranchi-236534",
+  "https://www.shiksha.com/college/lilavati-hospital-and-research-centre-mumbai-240734",
+  "https://www.shiksha.com/college/shri-sai-college-of-pharmacy-prayagraj-155945",
+  "https://www.shiksha.com/college/praduman-singh-sikshan-prakishan-sansthan-pharmacy-college-uttar-pradesh-other-181345",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 2321
+    c_count = 3061
 
     try:
         for base_url in BASE_URL:
