@@ -15,26 +15,19 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/university/southern-regional-station-national-dairy-research-institute-bangalore-53198",
-  "https://www.shiksha.com/college/dssop-pharmacy-college-uttar-pradesh-other-65487",
-  "https://www.shiksha.com/college/shriram-shikshan-sanstha-s-college-of-pharmacy-solapur-88859",
-  "https://www.shiksha.com/college/kalra-hospital-delhi-106097",
-  "https://www.shiksha.com/college/design-education-technology-jabalpur-115095",
-  "https://www.shiksha.com/college/vagdevi-college-of-pharmacy-and-research-centre-nellore-146165",
-  "https://www.shiksha.com/college/a-and-e-college-of-pharmacy-bihar-other-146429",
-  "https://www.shiksha.com/college/school-of-pharmacy-kawali-ybn-university-ranchi-156867",
-  "https://www.shiksha.com/college/baba-ramdal-surajdev-pharmacy-college-uttar-pradesh-other-181119",
-  "https://www.shiksha.com/college/nitra-institute-of-sleep-sciences-chennai-193907",
-  "https://www.shiksha.com/college/k-v-m-institute-of-paramedical-sciences-kerala-other-194681",
-  "https://www.shiksha.com/college/gyan-jyoti-paramedical-and-nursing-school-hazaribagh-201687",
-  "https://www.shiksha.com/college/rajshreya-college-of-pharmacy-bidar-207855",
-  "https://www.shiksha.com/provider/nsdc-national-skill-development-corporation-225693",
-  "https://www.shiksha.com/provider/fda-226621",
-  "https://www.shiksha.com/provider/sgs-226821",
-  "https://www.shiksha.com/college/patel-college-of-pharmacy-ranchi-236534",
-  "https://www.shiksha.com/college/lilavati-hospital-and-research-centre-mumbai-240734",
-  "https://www.shiksha.com/college/shri-sai-college-of-pharmacy-prayagraj-155945",
-  "https://www.shiksha.com/college/praduman-singh-sikshan-prakishan-sansthan-pharmacy-college-uttar-pradesh-other-181345",
+  "https://www.shiksha.com/college/shri-bhagavat-mahavidyalaya-varanasi-116635",
+  "https://www.shiksha.com/college/sri-ramakrishna-college-of-education-perambalur-142301",
+  "https://www.shiksha.com/college/ghousia-institute-of-technology-for-women-bangalore-213711",
+  "https://www.shiksha.com/university/jss-university-noida-245078",
+  "https://www.shiksha.com/college/lord-krishna-college-of-engineering-lkce-ghaziabad-23667",
+  "https://www.shiksha.com/college/trr-college-of-engineering-medak-42736",
+  "https://www.shiksha.com/college/translam-institute-of-technology-and-management-technical-campus-meerut-43231",
+  "https://www.shiksha.com/college/shri-ram-murti-smarak-college-of-engineering-and-technology-unnao-59421",
+  "https://www.shiksha.com/college/gyan-bharti-institute-of-technology-meerut-59891",
+  "https://www.shiksha.com/college/gurudeva-institute-of-science-technology-puthuppally-kottayam-60375",
+  "https://www.shiksha.com/college/narayanadri-institute-of-science-and-technology-kadapa-60843",
+  "https://www.shiksha.com/college/mahakavi-bharathiyar-college-of-engineering-and-technology-tirunelveli-61769",
+  "https://www.shiksha.com/college/girdhar-group-of-institutions-mandideep-65189"
 ]
 
 
@@ -9248,7 +9241,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 3061
+    c_count = 2274
 
     try:
         for base_url in BASE_URL:
